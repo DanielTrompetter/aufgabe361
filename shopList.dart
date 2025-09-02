@@ -28,6 +28,8 @@ class shoppingList
   List<shoppingItem>? items;  //Liste der Items
   List<member>? members;      //Liste der Miteinkäufer dieser Liste
   member? owner;              //Derjenige, der diese Liste angelegt hat und verwaltet
+
+  shoppingList(this.items, this.members, this.owner);
 }
 
 class member
